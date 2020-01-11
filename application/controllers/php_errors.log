@@ -1,0 +1,3 @@
+[10-Dec-2019 22:30:52 Asia/Tokyo] PHP Fatal error:  Class 'Controller' not found in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 3
+[10-Dec-2019 22:30:52 Asia/Tokyo] PHP Stack trace:
+[10-Dec-2019 22:30:52 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php:0

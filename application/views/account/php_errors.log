@@ -1,0 +1,16 @@
+[03-Dec-2019 23:39:48 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/shiba/php/mini-blog.localhost/application/views/account/signup.php:1
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/php/mini-blog.localhost/application/views/account/signup.php on line 1
+[03-Dec-2019 23:41:32 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/shiba/php/mini-blog.localhost/application/views/account/signup.php:1
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/php/mini-blog.localhost/application/views/account/signup.php on line 1
+[03-Dec-2019 23:41:37 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/shiba/php/mini-blog.localhost/application/views/account/signup.php:1
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/php/mini-blog.localhost/application/views/account/signup.php on line 1
+[10-Dec-2019 21:25:02 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/views/account/signup.php:1
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/views/account/signup.php on line 1

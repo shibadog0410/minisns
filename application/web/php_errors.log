@@ -541,3 +541,21 @@ Stack trace:
 [11-Jan-2020 10:02:03 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
 [11-Jan-2020 10:02:03 Asia/Tokyo] PHP   3. Response->send() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:102
 [11-Jan-2020 10:02:03 Asia/Tokyo] PHP   4. header(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Response.php:11
+[12-Jan-2020 01:18:45 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method UserRepository::fetchAllFollowingsByUserId() in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php:75
+Stack trace:
+#0 /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php(37): AccountController->indexAction(Array)
+#1 /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php(114): Controller->run('index', Array)
+#2 /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php(95): Application->runAction('account', 'index', Array)
+#3 /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php(7): Application->run()
+#4 {main}
+  thrown in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 75
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP Fatal error:  Cannot redeclare StatusRepository::fetchAllPersonalArchivesByUserId() in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/models/StatusRepository.php on line 51
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP Stack trace:
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP   4. StatusController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP   5. StatusController->indexAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP   6. DbManager->get($repository_name = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/StatusController.php:9
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP   7. spl_autoload_call(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/DbManager.php:61
+[12-Jan-2020 01:29:14 Asia/Tokyo] PHP   8. ClassLoader->loadClass($class = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/DbManager.php:61

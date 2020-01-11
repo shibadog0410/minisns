@@ -26,7 +26,6 @@ class MiniBlogApplication extends Application
                 'controller' => 'status',
                 'action' => 'show'
             ),
-
             '/account' => array(
                 'controller' => 'account',
                 'action' => 'index'
@@ -34,6 +33,10 @@ class MiniBlogApplication extends Application
             '/account/:action' => array(
                 'controller' => 'account'
             ),
+            '/follow' => array(
+                'controller' => 'account',
+                'action'     => 'follow',
+            )
         );
     }
 

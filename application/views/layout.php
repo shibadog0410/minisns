@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php if (isset($title)) : echo $this->escape($title) . '-';
             endif; ?>Mini Blog</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../web/css/style.css">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
         <h1><a href="<?php echo $base_url; ?>/">Mini Blog</a></h1>
     </div>
 
-    <div>
+    <div id="nav">
         <p>
             <?php if ($session->isAuthenticated()) : ?>
                 <a href="<?php echo $base_url; ?>/">ホーム</a>

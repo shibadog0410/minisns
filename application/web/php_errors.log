@@ -382,3 +382,162 @@ Stack trace:
 #3 /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php(66): Controller->render(Array)
 #4 /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php(37): AccountController->indexAction(Array)
 #5 /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php(114): Controller- in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/View.php on line 14
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Notice:  Undefined variable: user_name in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 135
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Notice:  Undefined variable: password in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 136
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Notice:  Undefined variable: errors in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 137
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Warning:  require(/Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/views/account/authenticate.php): failed to open stream: No such file or directory in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/View.php on line 27
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   6. AccountController->render($variables = *uninitialized*, $template = *uninitialized*, $layout = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php:138
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   7. View->render($_path = *uninitialized*, $_variables = *uninitialized*, $_layout = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:65
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '/Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/views/account/authenticate.php' (include_path='.:/usr/local/Cellar/php@7.2/7.2.22_1/share/php@7.2/pear') in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/View.php on line 27
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   6. AccountController->render($variables = *uninitialized*, $template = *uninitialized*, $layout = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php:138
+[11-Jan-2020 09:42:23 Asia/Tokyo] PHP   7. View->render($_path = *uninitialized*, $_variables = *uninitialized*, $_layout = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:65
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Notice:  Undefined variable: user_name in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 135
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Notice:  Undefined variable: password in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 136
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Notice:  Undefined variable: errors in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 137
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Warning:  require(/Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/views/account/authenticate.php): failed to open stream: No such file or directory in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/View.php on line 27
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   6. AccountController->render($variables = *uninitialized*, $template = *uninitialized*, $layout = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php:138
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   7. View->render($_path = *uninitialized*, $_variables = *uninitialized*, $_layout = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:65
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '/Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/views/account/authenticate.php' (include_path='.:/usr/local/Cellar/php@7.2/7.2.22_1/share/php@7.2/pear') in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/View.php on line 27
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   6. AccountController->render($variables = *uninitialized*, $template = *uninitialized*, $layout = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php:138
+[11-Jan-2020 09:45:50 Asia/Tokyo] PHP   7. View->render($_path = *uninitialized*, $_variables = *uninitialized*, $_layout = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:65
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP Notice:  Undefined variable: user_name in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 135
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP Notice:  Undefined variable: password in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 136
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP Notice:  Undefined variable: errors in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 137
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php:136) in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Response.php on line 11
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   3. Response->send() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:102
+[11-Jan-2020 09:50:52 Asia/Tokyo] PHP   4. header(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Response.php:11
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP Notice:  Undefined variable: user_name in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 135
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP Notice:  Undefined variable: password in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 136
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP Notice:  Undefined variable: errors in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 137
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php:136) in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Response.php on line 11
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   3. Response->send() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:102
+[11-Jan-2020 09:50:56 Asia/Tokyo] PHP   4. header(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Response.php:11
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP Notice:  Undefined variable: user_name in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 135
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP Notice:  Undefined variable: password in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 136
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP Notice:  Undefined variable: errors in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php on line 137
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   3. MiniBlogApplication->runAction($controller_name = *uninitialized*, $action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:95
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   4. AccountController->run($action = *uninitialized*, $params = *uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:114
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   5. AccountController->authenticateAction(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Controller.php:37
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/controllers/AccountController.php:136) in /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Response.php on line 11
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP Stack trace:
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   1. {main}() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:0
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   2. MiniBlogApplication->run() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/web/index_dev.php:7
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   3. Response->send() /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Application.php:102
+[11-Jan-2020 10:02:03 Asia/Tokyo] PHP   4. header(*uninitialized*) /Users/shiba/shiba_tomoyuki/mini-blog.localhost/application/core/Response.php:11
